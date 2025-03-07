@@ -1,0 +1,158 @@
+/* Estilos Gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+/* Página de Login */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Cabeçalho */
+.login-header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.login-header .logo {
+  max-height: 50px;
+  margin-bottom: 10px;
+}
+
+.login-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Formulário */
+.login-container {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #000000;
+  color: white;
+  box-sizing: border-box;
+}
+
+form input[type="text"]::placeholder,
+form input[type="email"]::placeholder {
+  color: #cccccc;
+}
+
+form input:focus {
+  border-color: #004aad;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 74, 173, 0.5);
+}
+
+form small {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* Checkbox */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Botão */
+form button {
+  background: #004aad;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #00337f;
+}
+
+/* Texto de Ajuda */
+.help-text {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.help-text a {
+  color: #004aad;
+  text-decoration: none;
+}
+
+.help-text a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé Ajustado */
+.login-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
